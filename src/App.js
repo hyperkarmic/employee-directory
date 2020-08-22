@@ -1,11 +1,15 @@
 import React from "react";
+import Header from "./components/Header.js";
 
 import "./App.css";
 
 const App = () => {
   return (
     <div className="App">
-      <h1>Employeee Directory</h1>
+      <Header
+        title="Employee Directory"
+        subtitle="Click on search bar to to search for a user"
+      />
     </div>
   );
 };
