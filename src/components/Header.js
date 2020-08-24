@@ -1,11 +1,11 @@
 import React from "react";
 import "../styles/Header.css";
 
-function Header(props) {
+function Header() {
   return (
     <div className="header">
-      <h1>{props.title}</h1>
-      <p>{props.subtitle}</p>
+      <h1>Employee Directory</h1>
+      <p>Click on search bar to to search for a user</p>
     </div>
   );
 }
