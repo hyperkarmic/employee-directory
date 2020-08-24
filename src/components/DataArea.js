@@ -1,7 +1,7 @@
 import React from "react";
 //import EmployeeTable from "EmployeeTable";
-import Search from "./Search.js";
-import EmployeeTable from "./EmployeeTable.js";
+import Searchbar from "./Searchbar.js";
+import Table from "./Table.js";
 //import search
 //import table
 
@@ -16,8 +16,8 @@ class DataArea extends React.Component {
   render() {
     return (
       <div>
-        <Search />
-        <EmployeeTable />
+        <Searchbar />
+        <Table />
       </div>
     );
   }
